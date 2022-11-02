@@ -1,6 +1,7 @@
 import styles from "./productCheckoutCard.module.css";
 import { XCircle } from "phosphor-react";
 import axios from "axios";
+import { API_URL } from "../../constantes";
 
 export function ProductCheckoutCard({
   id,
@@ -18,7 +19,7 @@ export function ProductCheckoutCard({
         <i
           onClick={() => {
             axios
-              .delete(`http://localhost:8180/carrinhodecompras/${id}`)
+              .delete(`${API_URL}/carrinhodecompras/${id}`)
 
               .then(() => onRemove(index))
               .catch((err) => console.log(err.message));

@@ -10,6 +10,7 @@ export default defineConfig(({ command, mode }) => {
     plugins: [react()],
     define: {
       PORT: env.PORT,
+      API_URL: env.API_URL,
     },
   };
 });

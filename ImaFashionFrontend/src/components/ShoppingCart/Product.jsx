@@ -2,6 +2,7 @@ import { Trash, MinusCircle, PlusCircle } from "phosphor-react";
 import styles from "./Product.module.css";
 import ImageProduct from "./ImageProduct";
 import axios from "axios";
+import { API_URL } from "../../constantes";
 
 export default function Product({
   onIncrease,
@@ -25,7 +26,7 @@ export default function Product({
           className={styles.buttonRemoveItem}
           onClick={() => {
             axios
-              .delete(`http://localhost:8180/carrinhodecompras/${id}`)
+              .delete(`${API_URL}/carrinhodecompras/${id}`)
               .then(() => onRemove(id))
               .catch((err) => console.log(err.message));
           }}

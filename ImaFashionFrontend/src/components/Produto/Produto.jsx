@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 import { useState, useContext, useEffect } from "react";
 import { CartContext } from "../../context/CartContext/cartContext";
 import axios from "axios";
+import { API_URL } from "../../constantes";
 
 export default function Produto(id) {
   const [size, setSize] = useState("");
@@ -97,7 +98,7 @@ export default function Produto(id) {
               className={styles.toCart}
               onClick={() => {
                 axios
-                  .post("http://localhost:8180/carrinhodecompras", {
+                  .post(`${API_URL}/carrinhodecompras`, {
                     id: handleProductId[0].id,
                     name: handleProductId[0].productName,
                     code: handleProductId[0].code,

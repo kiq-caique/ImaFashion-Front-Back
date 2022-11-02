@@ -4,6 +4,7 @@ import { CartContext } from "../../context/CartContext/cartContext";
 import { useContext } from "react";
 import axios from "axios";
 import { useLocation, useNavigate } from "react-router-dom";
+import { API_URL } from "../../constantes";
 
 export function Pedido() {
   const {
@@ -123,7 +124,7 @@ export function Pedido() {
           className={styles.endShopping}
           onClick={() => {
             axios
-              .post("http://localhost:8180/comprar", {
+              .post(`${API_URL}/comprar`, {
                 email: "test@test.com",
                 endereco: "Rua t-44, n. 174 Bueno, Goiânia-GO 74210-150",
                 frete: "PAC",
