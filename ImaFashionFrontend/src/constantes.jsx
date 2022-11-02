@@ -1,1 +1,1 @@
-export const API_URL = import.meta.env.VITE_API_URL || "localhost:8180";
+export const API_URL = "https://imafashion-api.up.railway.app";
