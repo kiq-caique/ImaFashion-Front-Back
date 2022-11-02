@@ -8,9 +8,5 @@ export default defineConfig(({ command, mode }) => {
   return {
     // vite config
     plugins: [react()],
-    define: {
-      PORT: env.PORT,
-      API_URL: env.API_URL,
-    },
   };
 });
