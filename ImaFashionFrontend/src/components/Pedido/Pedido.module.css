@@ -1,0 +1,8 @@
+.tittle h1 {
+  padding: 100px;
+  background-color: var(--brand-beige);
+  color: var(--pink-700);
+  width: 100%;
+  text-transform: uppercase;
+  font-size: 1.5rem;
+}
