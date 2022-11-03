@@ -1,9 +1,10 @@
-import React from 'react'
+import { Pedido } from "../components/Pedido/Pedido";
+import PedidoSucesso from "../components/Pedido/PedidoSucesso";
 
-function PedidoSucesso() {
+export function PedidoSucesso() {
   return (
-    <div>PedidoSucesso</div>
-  )
+    <div>
+      <PedidoSucesso />
+    </div>
+  );
 }
-
-export default PedidoSucesso

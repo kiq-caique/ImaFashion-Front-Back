@@ -8,6 +8,7 @@ import ProductPage from "./pages/ProductPage";
 import { ShoppingCart } from "./components/ShoppingCart/ShoppingCart";
 import { Pedido } from "./components/Pedido/Pedido";
 import ScrollToTop from "./components/ScrollToTop/ScrollToTop";
+import PedidoSucesso from "./components/Pedido/PedidoSucesso";
 
 export function Router() {
   return (
@@ -21,6 +22,7 @@ export function Router() {
         <Route path="/busca" element={<SearchPage />} />
         <Route path="/carrinho" element={<ShoppingCart />} />
         <Route path="/pedido" element={<Pedido />} />
+        <Route path="/pedido-sucesso" element={<PedidoSucesso />} />
       </Routes>
     </ScrollToTop>
   );
