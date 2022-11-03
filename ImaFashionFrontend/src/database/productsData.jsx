@@ -17,7 +17,7 @@ export const productsData = [
     productName: "Calça Jeans Estilizada",
     productPrice: 150.0,
     hasDiscount: false,
-    productType: "jeans",
+    productType: "blouse",
     size: ["P", "M", "G"],
     qty: 1,
   },
@@ -28,7 +28,7 @@ export const productsData = [
     productName: "Conjunto Moletom",
     productPrice: 180.0,
     hasDiscount: false,
-    productType: "conjunct",
+    productType: "blouse",
     size: ["P", "M", "G"],
   },
   {
@@ -38,7 +38,7 @@ export const productsData = [
     productName: "Saia Verão",
     productPrice: 84.0,
     hasDiscount: true,
-    productType: "conjunct",
+    productType: "blouse",
     size: ["P", "M", "G"],
   },
   {
@@ -48,7 +48,7 @@ export const productsData = [
     productName: "Conjunto Marinho",
     productPrice: 150.0,
     hasDiscount: false,
-    productType: "conjunct",
+    productType: "blouse",
     size: ["P", "M", "G"],
     qty: 1,
   },
@@ -59,7 +59,7 @@ export const productsData = [
     productName: "Conjunto Terno Preto",
     productPrice: 210.0,
     hasDiscount: false,
-    productType: "conjunct",
+    productType: "blouse",
     size: ["P", "M", "G"],
   },
   {
@@ -69,7 +69,7 @@ export const productsData = [
     productName: "T-shirt Leave the Road",
     productPrice: 60.0,
     hasDiscount: true,
-    productType: "t-shirt",
+    productType: "dress",
     size: ["P", "M", "G"],
   },
   {
@@ -79,7 +79,7 @@ export const productsData = [
     productName: "T-shirt Esqueleto Preta",
     productPrice: 60.0,
     hasDiscount: false,
-    productType: "t-shirt",
+    productType: "dress",
     size: ["P", "M", "G"],
   },
   {

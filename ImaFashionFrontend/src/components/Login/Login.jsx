@@ -37,12 +37,12 @@ export function Login() {
             </label>
           </p>
           <p className={styles.submit}>
-            <input
-              className={styles.input}
+            <button className={styles.input}
               type="submit"
-              name="commit"
-              value="Acessar a conta"
-            />
+              name="commit">
+              <Link to={`/#produtos`}>Acessar a conta
+              </Link> 
+            </button>
           </p>
         </form>
       </div>
