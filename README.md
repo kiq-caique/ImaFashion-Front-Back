@@ -16,8 +16,7 @@ Projeto prático em grupo para contrução de um e-commerce, desenvolvido no cur
 1. Avaliar a capacidade de trabalho em equipe.
 2. Estimular Soft Skills.
 3. Auxiliar no desenvolvimento técnico.
-4. Possibilitar que monitores nos ajudem na avaliação dos alunos.
-5. Simular o ambiente das empresas.
+4. Simular o ambiente das empresas. 
 
 ## 💻 Organização
 
